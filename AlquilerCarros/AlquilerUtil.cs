@@ -10,7 +10,7 @@ namespace AlquilerCarros
 {
     public class AlquilerUtil
     {
-        public void CrearAlquiler(List<Alquiler> alquilers,)
+        public void CrearAlquiler(List<Alquiler> alquilers)
         {
             Console.Write("\n********registro de alquileres********");
             Console.WriteLine("ingresar el nombre de cliente: ");
@@ -23,9 +23,8 @@ namespace AlquilerCarros
             string placa = Console.ReadLine();
             Console.WriteLine("ingresar marca de carro");
             string marca = Console.ReadLine();
-            Console.WriteLine("ingresar precio de alquiler";
+            Console.WriteLine("ingresar precio de alquiler");
             string palquiler = Console.ReadLine();
-            alquileres.Add(new Alquiler { cliente = cliente, DNI = dni, PagoMaximo = pagomax, Placa = placa, Marca = marca, PrecioAlquiler = palquiler });
             Console.Clear();
             Console.WriteLine("\nRegistrado correctamente");
         }
@@ -48,7 +47,8 @@ namespace AlquilerCarros
         }
         public static void CarrosAlquiler()
         {
-
+            Console.WriteLine("agregar cliente: ");
+            string cliente = Console.ReadLine();
         }
     }
 }
