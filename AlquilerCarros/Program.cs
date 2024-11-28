@@ -62,9 +62,9 @@ while (true)
         switch (opc)
         {
             case 0: Environment.Exit(0); break;
-                /* case 1: cl.CrearCliente(clientes); break;
-                 case 2: cl.EliminarCliente(clientes); break;
-                 case 3: cl.ListarCliente(clientes); break; */
+            case 1: cl.CrearCliente(clientes); break;
+            case 2: cl.EliminarCliente(clientes); break;
+            case 3: cl.ListarCliente(); break;
              }
          }
          else if (opc == 3)
@@ -82,9 +82,9 @@ while (true)
              switch (opc)
              {
                  case 0: Environment.Exit(0); break;
-                /* case 1: a.CrearAlquiler(); break;
-                 case 2: a.ListarAlquiler(); break;
-                 case 3: a.CarrosAlquiler(); break; */
+                 case 1: a.CrearAlquiler(alquileres); break;
+                 case 2: a.ListarAlquiler(alquileres); break;
+                 case 3: a.CarrosAlquiler(); break;
         }
     }
 }
