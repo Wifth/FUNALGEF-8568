@@ -8,7 +8,7 @@ namespace AlquilerCarros
 {
     public class ClienteUtil
     {
-        private static List<Cliente> Cliente = new List<Cliente>();
+        private static List<Cliente> clientes = new List<Cliente>();
         public static void CrearCliente()
         {
             Cliente nuevoCliente = new Cliente(DNI, Nombre, PagoMaximo);
@@ -23,6 +23,7 @@ namespace AlquilerCarros
                 return;
             }
             Console.WriteLine("Listado de clientes: ");
+
             foreach (var cliente in clientes)
             {
                 Console.WriteLine($"DNI: {cliente.Dni}, Nombre: {cliente.Nombre}, PagoMaximo: {cliente.PagoMaximo}");
