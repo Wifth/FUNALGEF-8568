@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "XdblZoDgbcw=",
+  "dgSpecHash": "ChKAawTdH18=",
   "success": true,
-  "projectFilePath": "C:\\Users\\UPN\\Documents\\Ao-C2\\ExamenT4\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Documents\\Visual Studio 2022\\Codigos\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\PC\\Documents\\Visual Studio 2022\\Codigos\\FUNALGEF-8568\\AlquilerCarros\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
